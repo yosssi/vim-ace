@@ -10,6 +10,10 @@ Write below in your init.vim or .vimrc
 " dein.vim
 call dein#add('yosssi/vim-ace')
 
+" plugin.toml
+[[plugins]]
+repo = 'yosssi/vim-ace'
+
 " NeoBundle
 NeoBundle 'yosssi/vim-ace'
 
